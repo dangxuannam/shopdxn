@@ -5,6 +5,7 @@ const header = {
         <div class="logo text-center bg-sky-900"  >
           <img class="mx-auto" src="./img/logo.png" alt="" width="200px">
         </div>
+        
         <div class="menu flex justify-between bg-orange-500 ">
           <ul class="flex ">
             <li class="p-4 hover:bg-indigo-500  "><a class="text-white font-semibold border-b-2 " href="/">Trang Chủ   </a> </li>
