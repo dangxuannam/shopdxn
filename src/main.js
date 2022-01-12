@@ -7,6 +7,7 @@ import daotao from "./page/daotao";
 import tuyendung from "./page/tuyendung";
 import goctuyensinh from "./page/goctuyensinh";
 import DetailPage from "./page/detail";
+import AdminProductPage from "./page/admin/product";
 
 const router = new Navigo("/", { linksSelector: "a" });
 const print = (content) => {
@@ -35,6 +36,9 @@ router.on({
     "/product/:id": ({ data }) => {
         const { id } = data;
         print(DetailPage.render(+id));
+    },
+    "/admin/product/": () => {
+        print(AdminProductPage.render());
     },
 
 });
