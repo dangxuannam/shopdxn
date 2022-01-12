@@ -10,7 +10,7 @@ const header = {
           <ul class="flex ">
             <li class="p-4 hover:bg-indigo-500  "><a class="text-white font-semibold border-b-2 " href="/">Trang Chủ   </a> </li>
    
-             <li class="p-4 hover:bg-indigo-500 "><a class="text-white font-semibold"  href="/tuyensinh">Tuyển Sinh   </a> </li>
+             <li class="p-4 hover:bg-indigo-500 "><a class="text-white font-semibold"  href="/admin/product">Tuyển Sinh   </a> </li>
    
                <li class="p-4 hover:bg-indigo-500 "><a class="text-white font-semibold"  href="/daotao">Chương Trình Đào Tạo   </a> </li>
               
