@@ -9,6 +9,9 @@ import goctuyensinh from "./page/goctuyensinh";
 import DetailPage from "./page/detail";
 import AdminProductPage from "./page/admin/product";
 import AdminSignup from "./page/admin/signup";
+import AdminSignin from "./page/admin/signin";
+import AdminDashboard from "./page/dashboard.js/admin";
+import AdminProductEdit from "./page/dashboard.js/productEdit";
 
 const router = new Navigo("/", { linksSelector: "a" });
 const print = (content) => {
@@ -43,6 +46,17 @@ router.on({
     },
     "/admin/signup/": () => {
         print(AdminSignup.render());
+    },
+
+    "/admin/signin/": () => {
+        print(AdminSignin.render());
+    },
+    "/admin/dashboard/": () => {
+        print(AdminDashboard.render());
+    },
+    "/admin1/product/:id/edit": ({ data }) => {
+        const { id } = data;
+        print(AdminProductEdit.render(id));
     },
 
 });
