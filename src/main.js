@@ -8,6 +8,7 @@ import tuyendung from "./page/tuyendung";
 import goctuyensinh from "./page/goctuyensinh";
 import DetailPage from "./page/detail";
 import AdminProductPage from "./page/admin/product";
+import AdminSignup from "./page/admin/signup";
 
 const router = new Navigo("/", { linksSelector: "a" });
 const print = (content) => {
@@ -39,6 +40,9 @@ router.on({
     },
     "/admin/product/": () => {
         print(AdminProductPage.render());
+    },
+    "/admin/signup/": () => {
+        print(AdminSignup.render());
     },
 
 });

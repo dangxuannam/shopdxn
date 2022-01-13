@@ -12,11 +12,11 @@ const header = {
    
              <li class="p-4 hover:bg-indigo-500 "><a class="text-white font-semibold"  href="/admin/product">Tuyển Sinh   </a> </li>
    
-               <li class="p-4 hover:bg-indigo-500 "><a class="text-white font-semibold"  href="/daotao">Chương Trình Đào Tạo   </a> </li>
+               <li class="p-4 hover:bg-indigo-500 "><a class="text-white font-semibold"  href="/daotao">Dashboard  </a> </li>
               
-                 <li class="p-4 hover:bg-indigo-500 "><a class="text-white font-semibold"  href="/goctuyensinh">Góc Tuyển Sinh  </a> </li>
+                 <li class="p-4 hover:bg-indigo-500 "><a class="text-white font-semibold"  href="/dangnhap">Đăng Nhập </a> </li>
    
-                   <li class="p-4 hover:bg-indigo-500 "><a class="text-white font-semibold"  href="/goctuyendung">Tuyển dụng  </a> </li>
+                   <li class="p-4 hover:bg-indigo-500 "><a class="text-white font-semibold"  href="/admin/signup/">Đăng Kí </a> </li>
    
           </ul>
          
