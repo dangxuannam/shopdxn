@@ -1,6 +1,6 @@
 const banner = {
     render() {
-        return `<img src="./src/img/banner.jpg" alt="">`;
+        return `<img class="max-w-6xl" src="https://picsum.photos/1200/320" alt="">`;
     },
 };
 export default banner;

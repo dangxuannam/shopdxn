@@ -3,7 +3,7 @@ const header = {
         return /* html */ ` 
         
         <div class="logo text-center bg-sky-900"  >
-          <img class="mx-auto" src="./src/img/logo.png" alt="" width="200px">
+          <img class="mx-auto" src="https://picsum.photos/100/30" alt="" width="200px">
         </div>
         
         <div class="menu flex justify-between bg-orange-500 ">
