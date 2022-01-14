@@ -3,7 +3,7 @@ const Footer = {
         return /* html */ `
       
         
-        <div class="footer text-center bg-sky-900 p-4 text-white font-bold max-w-6xl mx-auto" >
+        <div class="footer text-center bg-sky-900 p-4 text-white font-bold max-w-6xl mx-auto mt-5" >
         <span>Đặng Xuân Nam</span>
         </div>
         

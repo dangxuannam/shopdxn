@@ -1,7 +1,6 @@
 import Navigo from "navigo";
 import homepage from "./page/home";
-import Header from "./components/header";
-import Footer from "./components/footer";
+
 import tuyensinh from "./page/tuyensinh";
 import daotao from "./page/daotao";
 import tuyendung from "./page/tuyendung";
@@ -10,14 +9,14 @@ import DetailPage from "./page/detail";
 import AdminProductPage from "./page/admin/product";
 import AdminSignup from "./page/admin/signup";
 import AdminSignin from "./page/admin/signin";
-import AdminDashboard from "./page/dashboard.js/admin";
-import AdminProductEdit from "./page/dashboard.js/productEdit";
+import AdminDashboard from "./page/dashboard/admin";
+import AdminProductEdit from "./page/dashboard/productEdit";
+
+import AdminNewsAdd from "./page/dashboard/add";
 
 const router = new Navigo("/", { linksSelector: "a" });
 const print = (content) => {
     document.querySelector("#app").innerHTML = content;
-    document.querySelector("#header").innerHTML = Header.render();
-    document.querySelector("#footer").innerHTML = Footer.render();
 };
 router.on({
     "/": () => {
@@ -57,6 +56,9 @@ router.on({
     "/admin1/product/:id/edit": ({ data }) => {
         const { id } = data;
         print(AdminProductEdit.render(id));
+    },
+    "/admin/news/add": () => {
+        print(AdminNewsAdd.render());
     },
 
 });
