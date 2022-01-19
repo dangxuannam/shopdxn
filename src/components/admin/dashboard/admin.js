@@ -19,32 +19,22 @@ const Admin = {
                     href="/admin/dashboard"
                     class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
                     aria-current="page"
-                    >Dashboard</a
+                    >Thống Kê</a
                   >
 
                   <a
-                    href="/admin/news"
+                    href="/admin/news/add"
                     class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >News</a
-                  >
-
-                  <a
-                    href="#"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >Projects</a
+                    >Bài Viết</a
                   >
 
                   <a
                     href="#"
                     class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >Calendar</a
+                    >Sản Phẩm</a
                   >
 
-                  <a
-                    href="#"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >Reports</a
-                  >
+                 
                 </div>
               </div>
             </div>
